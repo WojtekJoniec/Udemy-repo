@@ -12,7 +12,7 @@ package dziedziczenie.potwory;
 public class Zombie extends Potwor{
     
     public Zombie(){
-        System.out.println("Domyślny konstrutkor - Zomibie");
+        System.out.println("Domyślny konstrutkor - Zombie");
     }
     
 }
