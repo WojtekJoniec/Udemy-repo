@@ -24,6 +24,7 @@ public class Dziedziczenie {
         Szkielet s = new Szkielet(20, 50);
         System.out.println(s.predkoscChodzenia);
         Zombie z = new Zombie(); 
+        System.out.println(z.zywotnosc);
         
         
         
