@@ -19,13 +19,25 @@ public class Dziedziczenie {
         //Zombie - subklasa
         //Szkielet - subklasa
         
+        Potwor p = new Szkielet();
+        p.atakuj();
+        
+        
+        /*
         Potwor p = new Potwor(10, 100);
         System.out.println(p.predkoscChodzenia);
-        Szkielet s = new Szkielet(20, 50);
+        
+        Szkielet s = new Szkielet(20, 50, "Łuk");
+        s.atakuj();
         System.out.println(s.predkoscChodzenia);
+        
         Zombie z = new Zombie(); 
-        
-        
-        
+        System.out.println(z.zywotnosc);
+        */
+               
     } 
+    
+    void metodaPotwora(Potwor typPotwora){
+        
+    }
 }

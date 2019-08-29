@@ -9,13 +9,16 @@ package dziedziczenie.potwory;
  *
  * @author M6800
  */
-public class Potwor {
-    public double predkoscChodzenia = 10;
-    public double zywotnosc;
+public abstract class Potwor {
+    protected double predkoscChodzenia = 10;
+    protected double zywotnosc;
     
     public void atakuj(){
         System.out.println("To jest metoda atakuj z klasy Potwór");
     }
+    
+    protected abstract void opis();  
+    
     
     public Potwor(){
         System.out.println("Domyślny konstruktor z klasy Potwór");
